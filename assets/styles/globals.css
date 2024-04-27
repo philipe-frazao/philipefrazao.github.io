@@ -65,10 +65,15 @@ p:not(:last-of-type),
 }
 
 .btn.btn-primary {
-  background-color: var(--dark-secondary-color);
+  background-color: var(--primary-color);
   color: var(--white);
   font-weight: 400;
   font-size: 1.4rem;
+  transition: all 0.3s;
+}
+
+.btn.btn-primary:hover {
+  opacity: 0.9;
 }
 
 .max-width {

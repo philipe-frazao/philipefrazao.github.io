@@ -30,7 +30,12 @@
 
 .about .about__left ul li a i {
     font-size: 4rem;
-    color: var(--secondary-color);
+    color: var(--primary-color);
+    transition: all 0.3s;
+}
+
+.about .about__left ul li a i:hover {
+    opacity: 0.9;
 }
 
 .about .about__right {
