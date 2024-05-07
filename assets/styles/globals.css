@@ -76,6 +76,14 @@ p:not(:last-of-type),
   opacity: 0.9;
 }
 
+.img__project {
+    width: 50rem;
+    height: 25rem; 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 .max-width {
   width: 100%;
   max-width: 120rem;

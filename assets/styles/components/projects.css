@@ -3,6 +3,19 @@
     scroll-margin-top: 15rem;
 }
 
+.projects .img__project__1 {
+    background-image: url(../../images/projeto__intranet.jpg); 
+} 
+
+.projects .img__project__2 {
+    background-image: url(../../images/projeto__to-do-list.jpg); 
+} 
+
+.projects .img__project__3 {
+    background-image: url(../../images/projeto__spotify.jpg); 
+    height: 27rem;
+} 
+
 .projects .projects__content {
     max-width: 56rem;
     text-align: center;
